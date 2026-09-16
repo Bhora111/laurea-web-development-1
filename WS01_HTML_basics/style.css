@@ -1,0 +1,31 @@
+/* Style the whole page */
+body {
+  background-color: limegreen;
+}
+
+/* Style all paragraphs */
+p {
+  color: black;
+  font-size: 12px;
+  line-height: 1.5;
+}
+
+/* Style all images */
+img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+/* Style all links */
+a {
+  color: darkblue;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+/* Style links when the mouse is over them */
+
+    /* Remove the underline */
