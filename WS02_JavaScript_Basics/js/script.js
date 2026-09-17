@@ -36,3 +36,11 @@ if (visitorFavoriteAnimal.toLowerCase() === "blue elephant") {
 } else {
     console.log("Nice! Your favorite animal is " + visitorFavoriteAnimal + ".");
 }
+
+//Exercise 6 – Button – Connect JavaScript to the Page
+
+const myButton = document.getElementById("myButton");
+
+myButton.addEventListener("click", function() {
+    alert("JavaScript toimii niin kuin pitäisi!");
+});
